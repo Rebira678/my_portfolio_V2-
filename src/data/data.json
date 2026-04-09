@@ -1,0 +1,174 @@
+{
+  "bio": {
+    "name": "Rebira Adugna",
+    "designation": [
+      "Full Stack Web Developer",
+      "Software Engineer",
+      "Problem Solver",
+      "AI and Cloud Enthusiast"
+    ],
+    "description": "Hi..!! 👋🏻 Rebira here",
+    "about": [
+      "I am an elite problem solver and a software engineer obsessed with building the future. My focus lies at the intersection of AI, Cloud architecture, and high-performance Web development.",
+      "Beyond technical execution, I am a strategic thinker and a future company builder. I am dedicated to creating scalable systems that solve real-world problems through innovative technology.",
+      "I thrive in competitive environments, pushing the boundaries of what's possible with clean, efficient, and impactful code.",
+      "Problem solving specialist with 500+ challenges mastered across global platforms. Currently honing my expertise in silicon-valley standard engineering patterns."
+    ],
+    "location": "Adama, Oromia, Ethiopia",
+    "github": "https://github.com/rebira678",
+    "linkedin": "https://www.linkedin.com/in/rebira-adugna-6496b2373",
+    "twitter": "",
+    "email": "rebikman9@gmail.com",
+    "resumeUrl": "/assets/resume.pdf"
+  },
+  "education": [
+    {
+      "degree": "BSc in Software Engineering",
+      "institution": "Adama Science and Technology University (ASTU)",
+      "year": "2023 - 2028",
+      "description": "Currently pursuing a rigorous degree in Software Engineering, focusing on advanced algorithms, system design, and competitive programming.",
+      "link": "#"
+    },
+    {
+      "degree": "Full Stack Web Development",
+      "institution": "Power Learn Project",
+      "year": "Jul - Dec 2025",
+      "description": "Intensive training program based in Nairobi, Kenya, specializing in modern web architectures and industry-standard development practices.",
+      "link": "/assets/Rebira Adugna certificate.pdf"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Rebik-Fit: Elite Gym Equipment",
+      "description": "A professional gym equipment platform featuring a pixel-perfect UI.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "demo": "https://rebik-fit.vercel.app/",
+      "code": "https://github.com/Rebira678/Rebik_Fit",
+      "major": true
+    },
+    {
+      "title": "Rezaday — Cloud, DevOps & Full Stack Experts",
+      "description": "Portfolio for a cloud and DevOps service company focusing on modern infrastructure solutions.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "demo": "https://rebira678.github.io/rezaday-company-portfolio",
+      "code": "https://github.com/Rebira678/rezaday-company-portfolio",
+      "major": true
+    },
+    {
+      "title": "SoilSense AI-Powered Soil Health",
+      "description": "AI-driven application for monitoring soil health designed to help farmers improve yield.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "React.js",
+        "Bootstrap 5",
+        "CSS3",
+        "Animate.css"
+      ],
+      "demo": "https://soilsense-app.vercel.app/",
+      "code": "https://github.com/Rebira678/Soilsense-app",
+      "major": true
+    },
+    {
+      "title": "Smart Recipe Recommender",
+      "description": "Personalized recipe suggestions based on available ingredients. Uses machine learning over a SQLite database.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "Python 3",
+        "Flask",
+        "SQLite",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "demo": "https://smartreciperecommender-c8i8.onrender.com/",
+      "code": "https://github.com/Rebira678/SmartRecipeRecommender",
+      "major": false
+    },
+    {
+      "title": "Women Empowerment Portal",
+      "description": "A robust platform dedicated to women's empowerment resources built with the full MERN stack.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "React.js",
+        "Vite",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "demo": "https://women-empowerment-portal-jade.vercel.app/",
+      "code": "https://github.com/Rebira678/Women_empowerment_portal",
+      "major": true
+    },
+    {
+      "title": "Purpose Alarm – Wake With Intention",
+      "description": "A mobile alarm app to help users wake up with purpose, featuring AsyncStorage and React Native animations.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "AsyncStorage"
+      ],
+      "demo": "",
+      "code": "https://github.com/Rebira678/purpose_alarm",
+      "major": false
+    }
+  ],
+  "skills": [
+    "React (90%)",
+    "JavaScript (80%)",
+    "TypeScript (60%)",
+    "Tailwind CSS (85%)",
+    "HTML5",
+    "CSS3",
+    "Bootstrap 5",
+    "Node.js (85%)",
+    "Express (80%)",
+    "Python (70%)",
+    "MongoDB (80%)",
+    "Flask",
+    "SQLite",
+    "Mongoose",
+    "Git (87%)",
+    "Docker (70%)",
+    "AWS (60%)"
+  ],
+  "experience": [
+    {
+      "title": "Software Engineering Trainee",
+      "company": "A2SV (Africa to Silicon Valley)",
+      "year": "Feb 2026 - Present",
+      "description": "Selected through a highly competitive process for specialized software engineering training focused on mastering data structures, algorithms, and high-level system design patterns.",
+      "link": "#"
+    },
+    {
+      "title": "Competitive Programmer",
+      "company": "CSEC-ASTU",
+      "year": "Present",
+      "description": "Active member and competitor at the Computer Science and Engineering Club of ASTU, consistently solving complex algorithmic challenges and participating in national coding competitions.",
+      "link": "#"
+    },
+    {
+      "title": "Full Stack Web Developer (Freelance)",
+      "company": "Independent",
+      "year": "2023 - 2025",
+      "description": "Architected and delivered high-performance web applications using the MERN stack. Focused on creating scalable, pixel-perfect solutions for diverse clients."
+    }
+  ],
+  "contact": {
+    "location": "Adama, Oromia, Ethiopia",
+    "email": "rebikman9@gmail.com",
+    "phone": "+251 969 180 823"
+  }
+}
