@@ -23,7 +23,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden flex items-end justify-start">
+    <section className="relative h-screen w-full overflow-hidden flex items-center md:items-end justify-center md:justify-start">
 
       {/* ── LOGO (TOP LEFT) ── */}
       <motion.div
@@ -35,8 +35,9 @@ export default function Hero() {
         <span className="font-outfit font-black text-2xl tracking-[0.25em] text-white">REBIK<span className="text-blue-500">.</span></span>
       </motion.div>
 
-      {/* ── BACKGROUND VIDEO ── */}
-      <div className="absolute inset-0 z-0">
+      {/* ── BACKGROUND ── */}
+      <div className="absolute inset-0 z-0 bg-black">
+        {/* Desktop Video Background */}
         {!isTouchDevice && (
           <video
             ref={videoRef}
@@ -52,6 +53,18 @@ export default function Hero() {
           </video>
         )}
 
+        {/* Mobile Beautiful Static Background (Zero GPU tax) */}
+        {isTouchDevice && (
+          <div className="absolute inset-0">
+            {/* Elegant deep space mesh gradient */}
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,_rgba(59,130,246,0.18),_transparent_60%),radial-gradient(circle_at_80%_80%,_rgba(99,102,241,0.15),_transparent_60%)]" />
+            
+            {/* Subtle tech grid pattern */}
+            <div className="absolute inset-0 opacity-[0.04]"
+                 style={{ backgroundImage: 'linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
+          </div>
+        )}
+
         {/* Heavy cinematic vignette — four-sided */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_20%,_black_80%)] pointer-events-none" />
         {/* Bottom-heavy gradient so text reads clearly */}
@@ -64,10 +77,10 @@ export default function Hero() {
         <div className="hidden md:block absolute top-1/4 right-1/4 w-[30vw] h-[30vw] bg-blue-900/10 rounded-full blur-[100px] pointer-events-none mix-blend-screen" />
       </div>
 
-      {/* ── CINEMATIC TEXT — fixed bottom-left ── */}
+      {/* ── CINEMATIC TEXT ── */}
       <div
-        className="relative z-10 flex flex-col gap-4 pb-24 sm:pb-32 md:pb-24 pl-8 sm:pl-12 md:pl-20 max-w-4xl"
-        style={{ paddingBottom: 'calc(6rem + env(safe-area-inset-bottom, 0px))' }}
+        className="relative z-10 flex flex-col items-center md:items-start text-center md:text-left gap-4 md:pb-24 px-8 sm:px-12 md:pl-20 max-w-4xl w-full"
+        style={{ paddingBottom: 'calc(2rem + env(safe-area-inset-bottom, 0px))' }}
       >
 
         {/* Stagger in each line from bottom */}
@@ -91,9 +104,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.7 }}
-          className="flex items-center gap-3"
+          className="flex flex-col md:flex-row items-center gap-3 w-full justify-center md:justify-start mt-2"
         >
-          <div className="h-[1px] w-8 bg-white/30" />
+          <div className="hidden md:block h-[1px] w-8 bg-white/30" />
           <RotatingText items={data.bio.designation} />
         </motion.div>
 
