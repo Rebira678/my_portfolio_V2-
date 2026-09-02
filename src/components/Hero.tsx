@@ -8,8 +8,11 @@ import BorderGlow from '@/components/ui/BorderGlow';
 import { Star } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 
+import { useDeviceType } from '@/hooks/useDeviceType';
+
 export default function Hero() {
   const { stage } = useAppContext();
+  const { isTouchDevice } = useDeviceType();
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -34,18 +37,20 @@ export default function Hero() {
 
       {/* ── BACKGROUND VIDEO ── */}
       <div className="absolute inset-0 z-0">
-        <video
-          ref={videoRef}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          disablePictureInPicture
-          className="w-full h-full object-cover"
-        >
-          <source src="/assets/background.webm" type="video/webm" />
-        </video>
+        {!isTouchDevice && (
+          <video
+            ref={videoRef}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            disablePictureInPicture
+            className="w-full h-full object-cover"
+          >
+            <source src="/assets/background.webm" type="video/webm" />
+          </video>
+        )}
 
         {/* Heavy cinematic vignette — four-sided */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_20%,_black_80%)] pointer-events-none" />
@@ -54,9 +59,9 @@ export default function Hero() {
         {/* Left edge darkening */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-transparent to-transparent pointer-events-none" />
 
-        {/* Subtle color blooms */}
-        <div className="absolute bottom-1/3 left-1/4 w-[40vw] h-[40vw] bg-blue-900/15 rounded-full blur-[120px] pointer-events-none mix-blend-screen" />
-        <div className="absolute top-1/4 right-1/4 w-[30vw] h-[30vw] bg-blue-900/10 rounded-full blur-[100px] pointer-events-none mix-blend-screen" />
+        {/* Subtle color blooms - hide on mobile to save GPU */}
+        <div className="hidden md:block absolute bottom-1/3 left-1/4 w-[40vw] h-[40vw] bg-blue-900/15 rounded-full blur-[120px] pointer-events-none mix-blend-screen" />
+        <div className="hidden md:block absolute top-1/4 right-1/4 w-[30vw] h-[30vw] bg-blue-900/10 rounded-full blur-[100px] pointer-events-none mix-blend-screen" />
       </div>
 
       {/* ── CINEMATIC TEXT — fixed bottom-left ── */}

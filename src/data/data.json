@@ -2,17 +2,15 @@
   "bio": {
     "name": "Rebira Adugna",
     "designation": [
-      "Full Stack Web Developer",
       "Software Engineer",
-      "Problem Solver",
-      "AI and Cloud Enthusiast"
+      "AI Engineer",
+      "A2SVian"
     ],
     "description": "Hi..!! 👋🏻 Rebira here",
     "about": [
-      "I am an elite problem solver and a software engineer obsessed with building the future. My focus lies at the intersection of AI, Cloud architecture, and high-performance Web development.",
-      "Beyond technical execution, I am a strategic thinker and a future company builder. I am dedicated to creating scalable systems that solve real-world problems through innovative technology.",
-      "I thrive in competitive environments, pushing the boundaries of what's possible with clean, efficient, and impactful code.",
-      "Problem solving specialist with 500+ challenges mastered across global platforms. Currently honing my expertise in silicon-valley standard engineering patterns."
+      "Full-Stack Web Developer and AI Engineer with 3 years of experience building production-ready applications and optimizing AI models.",
+      "I specialize in high-velocity development, focusing on delivering clean, functional MVPs. My work combines technical software engineering with a deep interest in model optimization and content filtering.",
+      "I am also a dedicated problem solver, having tackled 500+ challenges on LeetCode and Codeforces using Python, which strengthens my ability to write efficient, logical, and maintainable code for any project."
     ],
     "location": "Adama, Oromia, Ethiopia",
     "github": "https://github.com/rebira678",
@@ -135,35 +133,53 @@
     "Bootstrap 5",
     "Node.js (85%)",
     "Express (80%)",
+    "Go (Programming Language)",
     "Python (70%)",
+    "Artificial Intelligence (AI)",
+    "Machine Learning",
     "MongoDB (80%)",
     "Flask",
     "SQLite",
-    "Mongoose",
     "Git (87%)",
     "Docker (70%)",
     "AWS (60%)"
   ],
   "experience": [
     {
-      "title": "Software Engineering Trainee",
+      "title": "Backend Developer (Internship)",
+      "company": "A2SV (Africa to Silicon Valley)",
+      "year": "Jul 2026 - Present",
+      "description": "Working with Go to build highly concurrent and resilient backend systems and API Gateways."
+    },
+    {
+      "title": "A2SV Software Engeering Fellow",
       "company": "A2SV (Africa to Silicon Valley)",
       "year": "Feb 2026 - Present",
-      "description": "Selected through a highly competitive process for specialized software engineering training focused on mastering data structures, algorithms, and high-level system design patterns.",
-      "link": "#"
+      "description": "Selected through a highly competitive process for specialized software engineering training focused on mastering data structures, algorithms, and high-level system design patterns."
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "LOCUS AI",
+      "year": "Jun 2026 - Present",
+      "description": "Developing robust and resilient backend architectures for complex AI-driven SaaS platforms."
     },
     {
       "title": "Competitive Programmer",
       "company": "CSEC-ASTU",
-      "year": "Present",
-      "description": "Active member and competitor at the Computer Science and Engineering Club of ASTU, consistently solving complex algorithmic challenges and participating in national coding competitions.",
-      "link": "#"
+      "year": "Mar 2026 - Present",
+      "description": "Active member of the CSEC ASTU Competitive Programming Division, focusing on high-level algorithmic problem-solving. Solved 450+ complex problems across platforms like LeetCode and Codeforces, with a dedicated focus on optimizing time and space complexity (O(n \\log n) or better) for scalable software solutions."
     },
     {
-      "title": "Full Stack Web Developer (Freelance)",
-      "company": "Independent",
-      "year": "2023 - 2025",
-      "description": "Architected and delivered high-performance web applications using the MERN stack. Focused on creating scalable, pixel-perfect solutions for diverse clients."
+      "title": "AI Engineer (Internship)",
+      "company": "Product Manager Accelerator",
+      "year": "May 2026 - Aug 2026",
+      "description": "Awarded the Certified AI Engineer credential. Demonstrated proficiency in AI engineering, machine learning, data science, and developing end-to-end AI-driven solutions."
+    },
+    {
+      "title": "Full-Stack Web Developer Trainee",
+      "company": "Power Learn Project",
+      "year": "Jul 2025 - Dec 2025",
+      "description": "Intensive training program based in Nairobi, Kenya, specializing in modern web architectures and industry-standard development practices."
     }
   ],
   "contact": {

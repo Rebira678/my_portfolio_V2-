@@ -19,7 +19,7 @@ export default function Home() {
     if (stage === 'cinematic' && mainRef.current) {
       gsap.fromTo(
         mainRef.current,
-        { scale: 1.15, opacity: 0, filter: 'blur(24px)', y: '4vh' },
+        { scale: 1.15, opacity: 0, filter: isTouchDevice ? 'blur(0px)' : 'blur(24px)', y: '4vh' },
         {
           delay: 0.1,
           scale: 1,
@@ -32,7 +32,7 @@ export default function Home() {
         }
       );
     }
-  }, [stage, setStage]);
+  }, [stage, setStage, isTouchDevice]);
 
   // Lanyard is gone, so hero layout uses standard stage checks or none at all since CinematicIntro covers the screen.
   const isIntro = stage === 'preloading' || stage === 'lanyard';
@@ -45,7 +45,7 @@ export default function Home() {
         style={{
           opacity: isIntro ? 0 : 1,
           transform: isIntro ? 'scale(1.15) translateY(4vh)' : 'scale(1) translateY(0)',
-          filter: isIntro ? 'blur(24px)' : 'none',
+          filter: isIntro ? (isTouchDevice ? 'blur(0px)' : 'blur(24px)') : 'none',
           transition: 'none', // GSAP controls transitions, not CSS
           willChange: 'transform, opacity, filter',
         }}

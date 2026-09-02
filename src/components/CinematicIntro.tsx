@@ -82,7 +82,7 @@ export default function CinematicIntro() {
                 >
                     {/* Static placeholder for the bloom (Removed pulsing flicker) */}
                     <div
-                        className="absolute w-32 h-32 bg-blue-500 rounded-full blur-[40px] mix-blend-screen opacity-40"
+                        className="hidden md:block absolute w-32 h-32 bg-blue-500 rounded-full blur-[40px] mix-blend-screen opacity-40"
                     />
 
                     {/* Outer spinning ring - multiple rings for an astrolabe feel */}
@@ -98,7 +98,7 @@ export default function CinematicIntro() {
                     />
 
                     {/* Core circle that acts as the "lens" */}
-                    <div className="w-24 h-24 rounded-full bg-black border border-white/20 shadow-[inset_0_0_20px_rgba(255,255,255,0.1)] flex justify-center items-center backdrop-blur-md">
+                    <div className="w-24 h-24 rounded-full bg-black border border-white/20 shadow-[inset_0_0_20px_rgba(255,255,255,0.1)] flex justify-center items-center md:backdrop-blur-md">
                         {/* Percentage counter */}
                         <h2 className="font-outfit font-black text-white/90 text-2xl tracking-tighter">
                             {percent}
