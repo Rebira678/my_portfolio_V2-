@@ -23,6 +23,13 @@
   },
   "education": [
     {
+      "degree": "Certified AI Engineer",
+      "institution": "Product Manager Accelerator",
+      "year": "2026",
+      "description": "Awarded the Certified AI Engineer credential by Product Manager Accelerator. Demonstrated proficiency in AI engineering, machine learning, data science, and the development of AI-driven solutions.",
+      "link": "/assets/Rebira_Adugna_AI_PM_Accelerator_Certificate.pdf"
+    },
+    {
       "degree": "BSc in Software Engineering",
       "institution": "Adama Science and Technology University (ASTU)",
       "year": "2023 - 2028",
