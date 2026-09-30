@@ -39,6 +39,34 @@
   ],
   "projects": [
     {
+      "title": "TradeDraft",
+      "description": "An AI-powered platform helping solo contractors manage quotes, paperwork, and full project lifecycles.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "AI",
+        "LLM",
+        "SaaS",
+        "Full Stack"
+      ],
+      "demo": "",
+      "code": "",
+      "major": true
+    },
+    {
+      "title": "Router",
+      "description": "A highly resilient AI Inference Gateway built in Go, featuring distributed token-bucket rate limiting, circuit breaker failovers, and real-time Prometheus observability.",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "Go",
+        "Prometheus",
+        "AI Inference",
+        "Rate Limiting"
+      ],
+      "demo": "",
+      "code": "https://github.com/Rebira678/Router",
+      "major": true
+    },
+    {
       "title": "Rebik-Fit: Elite Gym Equipment",
       "description": "A professional gym equipment platform featuring a pixel-perfect UI.",
       "image": "/projects/placeholder.jpeg",
