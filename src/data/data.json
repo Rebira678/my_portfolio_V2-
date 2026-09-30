@@ -2,15 +2,17 @@
   "bio": {
     "name": "Rebira Adugna",
     "designation": [
-      "Software Engineer",
       "AI Engineer",
+      "Software Engineer",
+      "Full Stack Developer",
       "A2SVian"
     ],
     "description": "Hi..!! 👋🏻 Rebira here",
     "about": [
-      "Full-Stack Web Developer and AI Engineer with 3 years of experience building production-ready applications and optimizing AI models.",
-      "I specialize in high-velocity development, focusing on delivering clean, functional MVPs. My work combines technical software engineering with a deep interest in model optimization and content filtering.",
-      "I am also a dedicated problem solver, having tackled 500+ challenges on LeetCode and Codeforces using Python, which strengthens my ability to write efficient, logical, and maintainable code for any project."
+      "Hey, I'm Rebira — most people know me as rebik. I'm an AI Engineer and full-stack developer who loves building clean, practical web apps and making AI models smarter.",
+      "Most of my time lives at the intersection of solid backend engineering and intelligent, data-driven systems.",
+      "Outside of shipping code, I spend a lot of time on LLM fine-tuning, evaluation, and alignment work like RLHF.",
+      "I keep my problem-solving sharp with 500+ challenges solved across LeetCode and Codeforces."
     ],
     "location": "Adama, Oromia, Ethiopia",
     "github": "https://github.com/rebira678",
