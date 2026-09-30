@@ -176,6 +176,12 @@
   ],
   "experience": [
     {
+      "title": "AI Engineer & Founder",
+      "company": "TradeDraft",
+      "year": "Present",
+      "description": "Building an AI-powered platform helping solo contractors manage quotes, paperwork, and full project lifecycles. Focusing on LLM fine-tuning, evaluation, and alignment work like RLHF."
+    },
+    {
       "title": "Backend Developer (Internship)",
       "company": "A2SV (Africa to Silicon Valley)",
       "year": "Jul 2026 - Present",
