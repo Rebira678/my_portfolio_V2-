@@ -7,9 +7,9 @@
       "Full Stack Developer",
       "A2SVian"
     ],
-    "description": "Hi..!! 👋🏻 Rebira here",
+    "description": "Hi..!! \ud83d\udc4b\ud83c\udffb Rebira here",
     "about": [
-      "Hey, I'm Rebira — most people know me as rebik. I'm an AI Engineer and full-stack developer who loves building clean, practical web apps and making AI models smarter.",
+      "Hey, I'm Rebira \u2014 most people know me as rebik. I'm an AI Engineer and full-stack developer who loves building clean, practical web apps and making AI models smarter.",
       "Most of my time lives at the intersection of solid backend engineering and intelligent, data-driven systems.",
       "Outside of shipping code, I spend a lot of time on LLM fine-tuning, evaluation, and alignment work like RLHF.",
       "I keep my problem-solving sharp with 500+ challenges solved across LeetCode and Codeforces."
@@ -81,21 +81,7 @@
       "major": true
     },
     {
-      "title": "Rebik-Fit: Elite Gym Equipment",
-      "description": "A professional gym equipment platform featuring a pixel-perfect UI.",
-      "image": "/projects/placeholder.jpeg",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "Tailwind CSS",
-        "JavaScript"
-      ],
-      "demo": "https://rebik-fit.vercel.app/",
-      "code": "https://github.com/Rebira678/Rebik_Fit",
-      "major": true
-    },
-    {
-      "title": "Rezaday — Cloud, DevOps & Full Stack Experts",
+      "title": "Rezaday \u2014 Cloud, DevOps & Full Stack Experts",
       "description": "Portfolio for a cloud and DevOps service company focusing on modern infrastructure solutions.",
       "image": "/projects/placeholder.jpeg",
       "tags": [
@@ -123,21 +109,6 @@
       "major": true
     },
     {
-      "title": "Smart Recipe Recommender",
-      "description": "Personalized recipe suggestions based on available ingredients. Uses machine learning over a SQLite database.",
-      "image": "/projects/placeholder.jpeg",
-      "tags": [
-        "Python 3",
-        "Flask",
-        "SQLite",
-        "JavaScript",
-        "HTML/CSS"
-      ],
-      "demo": "https://smartreciperecommender-c8i8.onrender.com/",
-      "code": "https://github.com/Rebira678/SmartRecipeRecommender",
-      "major": false
-    },
-    {
       "title": "Women Empowerment Portal",
       "description": "A robust platform dedicated to women's empowerment resources built with the full MERN stack.",
       "image": "/projects/placeholder.jpeg",
@@ -151,20 +122,6 @@
       "demo": "https://women-empowerment-portal-jade.vercel.app/",
       "code": "https://github.com/Rebira678/Women_empowerment_portal",
       "major": true
-    },
-    {
-      "title": "Purpose Alarm – Wake With Intention",
-      "description": "A mobile alarm app to help users wake up with purpose, featuring AsyncStorage and React Native animations.",
-      "image": "/projects/placeholder.jpeg",
-      "tags": [
-        "React Native",
-        "Expo",
-        "TypeScript",
-        "AsyncStorage"
-      ],
-      "demo": "",
-      "code": "https://github.com/Rebira678/purpose_alarm",
-      "major": false
     }
   ],
   "skills": [
