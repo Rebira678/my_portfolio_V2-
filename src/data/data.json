@@ -149,7 +149,7 @@
     {
       "title": "Full Stack Engineer",
       "company": "Locus AI",
-      "year": "Present",
+      "year": "Jun 2026 - Present",
       "description": "Architecting and implementing production-grade features across the full stack, focusing on robust UI routing, resilient observability pipelines, and enterprise-scale data integration."
     },
     {
@@ -193,6 +193,12 @@
       "company": "Power Learn Project",
       "year": "Jul 2025 - Dec 2025",
       "description": "Intensive training program based in Nairobi, Kenya, specializing in modern web architectures and industry-standard development practices."
+    },
+    {
+      "title": "Full Stack Web Developer (Freelance)",
+      "company": "Independent",
+      "year": "2023 - Present",
+      "description": "Architected and delivered high-performance web applications using the MERN stack. Focused on creating scalable, pixel-perfect solutions for diverse clients."
     }
   ],
   "contact": {
