@@ -190,6 +190,12 @@
   ],
   "experience": [
     {
+      "title": "Full Stack Engineer",
+      "company": "Locus AI",
+      "year": "Present",
+      "description": "Architecting and implementing production-grade features across the full stack, focusing on robust UI routing, resilient observability pipelines, and enterprise-scale data integration."
+    },
+    {
       "title": "AI Engineer & Founder",
       "company": "TradeDraft",
       "year": "Present",
