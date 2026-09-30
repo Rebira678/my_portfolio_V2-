@@ -39,6 +39,20 @@
   ],
   "projects": [
     {
+      "title": "Retriever",
+      "description": "A production-grade RAG ingestion pipeline and semantic search API built in Go, utilizing concurrent worker pools and PostgreSQL (pgvector).",
+      "image": "/projects/placeholder.jpeg",
+      "tags": [
+        "Go",
+        "PostgreSQL",
+        "pgvector",
+        "RAG"
+      ],
+      "demo": "",
+      "code": "https://github.com/Rebira678/Retriever",
+      "major": true
+    },
+    {
       "title": "TradeDraft",
       "description": "An AI-powered platform helping solo contractors manage quotes, paperwork, and full project lifecycles.",
       "image": "/projects/placeholder.jpeg",
